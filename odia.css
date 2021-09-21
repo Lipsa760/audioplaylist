@@ -1,0 +1,123 @@
+body {
+  background-image: url("https://media.giphy.com/media/Qvp6Z2fidQR34IcwQ5/giphy.gif");
+
+  background-size: cover;
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", "cursive";
+  text-shadow: 3px 0 #DA0463;
+
+}
+.rightside img{
+  height:400px;
+  width:35%;
+  margin-left: 25%;
+  margin-top: -650px;
+}
+
+footer {
+  color: #DBEDF3;
+
+  font-family: sans-serif;
+  margin-top: 1rem;
+}
+
+.balika {
+background-image: url("balikabadhu.jpeg");
+background-size:cover;
+}
+
+.chatichirideletu {
+background-image: url("chatichirideletu.jpeg");
+background-size: cover;
+}
+
+.janamadeinusina {
+background-image: url("janamadeinusina.jpg");
+background-size:cover;
+}
+
+.kulanandana{
+background-image: url("kulanandanaa.jpeg");
+background-size:cover;
+}
+
+.maasinagae {
+background-image: url("maasinagae.jpg");
+background-size: cover;
+}
+
+.moakhiretupalaka {
+background-image: url("moakhiretupalaka.jpeg");
+background-size: cover;
+}
+
+.sunapanjuri {
+background-image: url("sunapanjuri.jpeg");
+background-size: cover;
+}
+
+.tumoakhira {
+  background-image: url("tumoakhira.jpg");
+  background-size: cover;
+}
+
+.tuthile{
+  background-image: url("tuthile.jpeg");
+  background-size: cover;
+}
+.set {
+  width: 35%;
+  position: relative;
+  text-align: left;
+  margin-left: 6%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #350b40;
+  font-size:1px;
+  font-family: 'Arvo', 'cursive';
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+
+@media (max-width:1028px){
+  .drum{
+    height:200px;
+    width:200px;
+    margin: 40px;
+
+  }
+
+}
